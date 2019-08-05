@@ -31,8 +31,8 @@
                 </router-link>
             </li>
         
-            <li class="nav-item has-treeview menu-open">
-                <a href="#" class="nav-link active">
+            <li class="nav-item has-treeview">
+                <a href="#" class="nav-link">
                 <i class="nav-icon fas fa-cog"></i>
                 <p> Management <i class="right fas fa-angle-left"></i> </p>
                 </a>
