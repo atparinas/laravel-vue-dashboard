@@ -25,10 +25,10 @@
             <!-- Add icons to the links using the .nav-icon class
                 with font-awesome or any other icon font library -->
             <li class="nav-item">
-                <a href="#" class="nav-link">
+                <router-link to="/dashboard" class="nav-link">
                     <i class="nav-icon fas fa-tachometer-alt"></i>
                     <p> Dashboard </p>
-                </a>
+                </router-link>
             </li>
         
             <li class="nav-item has-treeview menu-open">
@@ -53,10 +53,10 @@
             </li>
     
             <li class="nav-item">
-                <a href="#" class="nav-link">
+                <router-link to="/profile" class="nav-link">
                     <i class="nav-icon fas fa-user"></i>
                     <p> Profile </p>
-                </a>
+                </router-link>
             </li>
             <li class="nav-item">
                 <a href="{{ route('logout')}}" class="nav-link"

@@ -26,7 +26,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
 </head>
 <body class="hold-transition sidebar-mini">
-<div class="wrapper">
+<div class="wrapper" id="app">
 
     @include('layouts._navbar')
 
@@ -39,7 +39,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
         <div class="content">
         <div class="container-fluid">
             
-
+            <router-view></router-view>
 
         </div><!-- /.container-fluid -->
         </div>
